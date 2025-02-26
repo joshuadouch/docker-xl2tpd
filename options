@@ -1,0 +1,4 @@
+name xxx@a.X
+password <password>
+noauth
+ifname l2tp0
