@@ -4,7 +4,7 @@ Using xl2tpd in a Docker container to connect to the Andrew &amp; Arnolds L2TP s
 
 I'm using `podman` since this is running on VyOS, but you can substitute with `docker` if neccesary.
 
-```git clone https://github.com/joshuadouch/docker-xl2tpd/```
+```git clone https://github.com/joshuadouch/docker-xl2tpd.git```
 
 ```cd docker-xl2tpd```
 
