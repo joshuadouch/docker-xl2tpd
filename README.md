@@ -8,6 +8,8 @@ I'm using `podman` since this is running on VyOS, but you can substitute with `d
 
 ```cd docker-xl2tpd```
 
+Update the `options` file with your username and password, and if not using the A&A L2TP service, edit the `xl2tpd.conf` file with the correct endpoint.
+
 ```sudo podman build --network=host -t xl2tpd .```
 
 Run the following command to start the container and read the output for any error messages
